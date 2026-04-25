@@ -1,0 +1,11 @@
+function playAudio(id) {
+  const audios = document.querySelectorAll("audio");
+
+  audios.forEach(audio => {
+    audio.pause();
+    audio.currentTime = 0;
+  });
+
+  const selectedAudio = document.getElementById(id);
+  selectedAudio.play();
+}

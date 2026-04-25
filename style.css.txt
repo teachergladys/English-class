@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #111;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Your Canva slide background */
+.slide {
+  width: 1280px;
+  height: 720px;
+  background-image: url("images/background.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* Button style */
+.class-btn {
+  position: absolute;
+  background: #ffd528;
+  border: 2px solid #222;
+  border-radius: 8px;
+  padding: 6px 14px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.class-btn:hover {
+  background: #ffea70;
+  transform: scale(1.08);
+}
+
+/* Button positions */
+.greetings {
+  left: 365px;
+  bottom: 115px;
+}
+
+.vocabulary {
+  left: 515px;
+  bottom: 115px;
+}
+
+.games {
+  left: 675px;
+  bottom: 115px;
+}
+
+.review {
+  left: 825px;
+  bottom: 115px;
+}

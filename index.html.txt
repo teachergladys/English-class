@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>English with Gladys</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="slide">
+
+    <!-- Clickable Buttons -->
+    <button class="class-btn greetings" onclick="playAudio('greetings')">Greetings</button>
+    <button class="class-btn vocabulary" onclick="playAudio('vocabulary')">Vocabulary</button>
+    <button class="class-btn games" onclick="playAudio('games')">Games</button>
+    <button class="class-btn review" onclick="playAudio('review')">Review</button>
+
+  </div>
+
+  <!-- Audio Files -->
+  <audio id="greetings" src="audio/greetings.mp3"></audio>
+  <audio id="vocabulary" src="audio/vocabulary.mp3"></audio>
+  <audio id="games" src="audio/games.mp3"></audio>
+  <audio id="review" src="audio/review.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
